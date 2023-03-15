@@ -4,12 +4,19 @@
     "sourceMap": true,
     "outDir": "dist",
     "strict": true,
-    "lib": ["esnext"],
+    "lib": [  
+    "dom"],
     "esModuleInterop": true,
     "emitDecoratorMetadata": true,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "types": [
+      "node"
+   ]
+   
   },
   "include": [
     "src/**/*"
   ],
+  "exclude": [
+    "node_modules"]
 }
